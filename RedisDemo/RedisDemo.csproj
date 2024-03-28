@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>32ef1833-04d2-42c3-9018-4f6538051ea1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jokersoft.Extensions.Caching.StackExchangeRedis" Version="7.0.13" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.27" />
+  </ItemGroup>
+
+</Project>
